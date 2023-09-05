@@ -56,7 +56,7 @@ const aboutPage = (() => {
 
         const ownerImg = document.createElement("img");
         ownerImg.id = "owner-img";
-        ownerImg.src = "/src/assets/head-chef.jpg";
+        ownerImg.src = "src/assets/head-chef.jpg";
         ownerBlock.appendChild(ownerImg);
 
         const foundingBlock = document.createElement("div");
@@ -65,7 +65,7 @@ const aboutPage = (() => {
 
         const foundingImg = document.createElement("img");
         foundingImg.id = "founding-img";
-        foundingImg.src = "/src/assets/restaurant-pic.jpg";
+        foundingImg.src = "src/assets/restaurant-pic.jpg";
         foundingBlock.appendChild(foundingImg);
 
         const foundingText = document.createElement("p");
