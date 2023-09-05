@@ -34,7 +34,7 @@ const homePage = (() => {
 
         const mainImg = document.createElement("img");
         mainImg.id = "main-img";
-        mainImg.src = "/src/assets/restaurant-welcome.jpg";
+        mainImg.src = "src/assets/restaurant-welcome.jpg";
         main.appendChild(mainImg);
 
         const mainText = document.createElement("p");
