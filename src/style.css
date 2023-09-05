@@ -1,0 +1,225 @@
+/* General Rules/Resets */
+:root {
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url(/src/assets/Raleway-VariableFont_wght.ttf);
+}
+
+html {
+    box-sizing: border-box;
+  }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #dddddd;
+}
+
+#header {
+    position: relative;
+    padding: 3rem 5rem;
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+}
+
+#header-tabs {
+    display: inline-flex;
+    height: 3.6rem;
+    float: right;
+}
+
+.header-title {
+    display: inline-block;
+    width: fit-content;
+    margin: 0;
+    font-size: 3.6rem;
+    font-weight: 500;
+}
+
+.page-tab {
+    font-size: 2.2rem;
+    font-weight: 300;
+    margin: 0.8rem 3rem;
+}
+
+.page-tab:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.active-tab {
+    font-weight: 500;
+}
+
+#main {
+    background-color: #eeeeee;
+    box-shadow: 0px 0px 12px 10px #00000050;
+    margin: 0 auto;
+    padding-top: 4rem;
+    width: 85vw;
+    height: 85vh;
+}
+
+/* Home Page */
+.page-title {
+    margin: 0;
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 500;
+}
+
+#main-img {
+    display: block;
+    border: 2px solid black;
+    margin: 5rem auto 5rem;
+    padding: 2px;
+}
+
+#main-text {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    width: 60ch;
+}
+
+/* About Us Page */
+#owner-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+
+#owner-img {
+    width: 35ch;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+#owner-text {
+    font-size: 1.8rem;
+    width: 60vw;
+}
+
+#founding-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+
+#founding-text {
+    font-size: 1.8rem;
+    width: 60vw;
+}
+
+#founding-img {
+    width: 35ch;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+/* Menu Page */
+#page-menu {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 4rem auto;
+    height: 85%;
+    margin: 5rem 10rem;
+}
+
+.menu-heading {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.menu-section {
+    background-color: white;
+    margin: 1rem;
+    padding: 1.6rem 0;
+    box-shadow: 0px 0px 10px 0px #4443;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+}
+
+.dish {
+    display: grid;
+    grid-template-columns: auto 2ch;
+    grid-template-rows: 1rem auto;
+    padding: 1rem;
+}
+
+.dish-name {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.dish-price {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.dish-desc {
+    font-size: 1.2rem;
+    grid-column-start: span 2;
+}
+
+/* Contact Us Page */
+#form-box {
+    height: 95%;
+    margin: auto 15rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3.2rem auto;
+}
+
+.form-heading {
+    margin: .5rem 0;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: repeat(5, 6rem);
+    align-items: center;
+    padding: 4rem;
+}
+
+.reserve-label, .review-label {
+    justify-self: right;
+    margin: 2rem;
+}
+
+.reserve-input, .review-input {
+    justify-self: left;
+}
+
+.review-desc {
+    grid-row-start: span 2;
+}
+
+#reserve-submit, #review-submit {
+    grid-column-start: span 2;
+    width: 25%;
+    padding: 1rem;
+    justify-self: center;
+}
+
+/* Footer */
+#footer {
+    height: 5vh;
+    background-color: white;
+}

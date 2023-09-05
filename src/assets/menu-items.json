@@ -1,0 +1,105 @@
+{
+   "Starters" : [
+        {
+            "name": "Foie Gras Duo",
+            "price": 22,
+            "desc": "A delicate pairing of seared foie gras and a velvety foie gras mousse, accompanied by a spiced fig compote and toasted brioche."
+        },
+        {
+            "name": "Truffle Carpaccio",
+            "price": 18,
+            "desc": "Paper-thin slices of prime beef tenderloin drizzled with truffle-infused olive oil, shaved Parmesan, arugula, and caper berries."
+        },
+        {
+            "name": "Oysters Rockefeller",
+            "price": 25,
+            "desc": "Freshly shucked oysters topped with a rich blend of spinach, Pernod-infused cream, and crispy bacon, baked to perfection."
+        },
+        {
+            "name": "Tuna Tartare",
+            "price": 20,
+            "desc": "Sushi-grade tuna diced and seasoned with soy, sesame, and fresh herbs, served with avocado puree and crispy wonton chips."
+        }
+   ],
+   "Steak": [
+    {
+        "name": "Dry-Aged Ribeye",
+        "price": 41,
+        "desc": "A beautifully marbled 16 oz. dry-aged ribeye, perfectly grilled to your preference and served with truffle-infused mashed potatoes and bordelaise sauce."
+    },
+    {
+        "name": "Filet Mignon au Poivre",
+        "price": 58,
+        "desc": "A tender 8 oz. filet mignon crusted with crushed peppercorns, pan-seared, and finished with a Cognac cream sauce, accompanied by haricots verts almondine."
+    },
+    {
+        "name": "Tomahawk Steak",
+        "price": 47,
+        "desc": "A show-stopping 32 oz. bone-in ribeye, expertly seasoned and char-grilled, served with roasted garlic mashed potatoes and roasted seasonal vegetables."
+    }
+   ],
+   "Seafood": [
+    {
+        "name": "Lobster Thermidor",
+        "price": 48,
+        "desc": "A succulent lobster tail poached and then broiled with a luscious blend of shallots, mushrooms, brandy, and Gruyere cheese, accompanied by saffron risotto."
+    },
+    {
+        "name": "Pan-Seared Chilean Sea Bass",
+        "price": 39,
+        "desc": "A buttery and flaky Chilean sea bass fillet pan-seared to perfection, served over a bed of lemon-scented risotto and sautéed baby spinach."
+    },
+    {
+        "name": "Grilled Salmon Provencal",
+        "price": 38,
+        "desc": "Fresh Atlantic salmon fillet grilled and topped with a medley of tomatoes, olives, capers, and fresh herbs, served with garlic mashed potatoes."
+    }
+   ],
+   "Sides": [
+    {
+        "name": "Truffle Mac and Cheese",
+        "price": 19,
+        "desc": "Cavatappi pasta in a creamy truffle-infused cheese sauce, topped with a crispy panko crust."
+    },
+    {
+        "name": "Roasted Brussels Sprouts",
+        "price": 16,
+        "desc": "Brussels sprouts roasted with bacon, shallots, and balsamic glaze, offering a balance of sweet and savory flavors."
+    },
+    {
+        "name": "Loaded Twice-Baked Potato",
+        "price": 12,
+        "desc": "A fluffy baked potato whipped with butter, sour cream, cheddar cheese, and crispy bacon bits."
+    },
+    {
+        "name": "Grilled Asparagus",
+        "price": 10,
+        "desc": "Tender asparagus spears grilled to perfection and drizzled with lemon-infused olive oil."
+    }
+   ],
+   "Desserts":[
+    {
+        "name": "Chocolate Decadence",
+        "price": 18,
+        "desc": "A rich flourless chocolate cake served with a raspberry coulis and a scoop of vanilla bean gelato."
+    },
+    {
+        "name": "Crème Brûlée Trio",
+        "price": 20,
+        "desc": "A flight of classic vanilla, coffee, and Grand Marnier-infused crème brûlées, each with a perfectly caramelized sugar crust."
+    },
+    {
+        "name": "Tiramisu",
+        "price": 16,
+        "desc": "A traditional Italian dessert featuring layers of coffee-soaked ladyfingers and mascarpone cream, dusted with cocoa powder."
+    },
+    {
+        "name": "Molten Lava Cake",
+        "price": 18,
+        "desc": "A warm chocolate lava cake with a gooey molten center, accompanied by a scoop of salted caramel gelato."
+    }
+   ]
+}
+    
+
+
